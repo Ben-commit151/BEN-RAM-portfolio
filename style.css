@@ -1,0 +1,64 @@
+Body {
+    Font-family: Arial, sans-serif;
+    Margin : 0;
+    Padding : 0;
+    Background: #f5f5f5;
+}
+.container {
+    Max-width: 1000px;
+    Margin: auto;
+    Background: white;
+    Box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.header {
+    Background-color: #1d2b38;
+    Color: white;
+    Padding: 30px;
+    Text-align: center;
+}
+.header h1 span {
+    Color: #007b3e;
+}
+.contact {
+    Margin-top: 10px;
+    Color: #ccc;
+}
+.main {
+    Display: flex;
+    Flex-wrap: wrap;
+    Padding: 40px;
+}
+.left, .right {
+    Width: 100%;
+    Max-width: 50%;
+    Box-sizing: border-box;
+    Padding: 0 20px;
+}
+@media (max-width: 768px) {
+    .left, .right {
+        Max-width: 100%;
+    }
+}
+.left h2, .right h2 {
+    Color: #008844;
+    Border-bottom: 2px solid #008844;
+    Padding-bottom: 5px;
+}
+Ul {
+    Padding-left: 20px;
+}
+.profile-pic {
+    Width: 120px;
+    Border-radius: 50%;
+    Margin: 10px auto;
+    Display: block;
+}
+.section {
+    Margin-bottom: 20px;
+}
+.sub-title {
+    Font-weight: bold;
+}
+.italic {
+    Font-style: italic;
+}
